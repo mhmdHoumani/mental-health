@@ -27,6 +27,23 @@ header h1 {
   padding: 0;
   margin: auto;
   width: 100%;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.mental-health {
+  border-radius: 0px 0px 10px 10px;
+}
+
+.mental-health h1,
+.mental-health p {
+  padding: 0 200px;
+}
+
+.mental-health,
+.mental-health h1,
+.mental-health p {
+  background-color: rgb(0, 62, 143);
 }
 
 .last-part-container {
@@ -39,36 +56,35 @@ header h1 {
 
 .first-column {
   width: 60%;
-  border-radius: 10px 0px 0px 10px;
+  border-radius: 10px 0px 0px 0px;
 }
 .second-column {
   width: 40%;
-  border-radius: 0px 10px 10px 0px;
+  border-radius: 0px 10px 0px 0px;
 }
 
 .second-column img {
   width: 80%;
 }
 
+.first-column,
+.first-column h1,
+.first-column p,
 .second-column,
 .second-column img {
   background-color: rgb(0, 62, 143);
 }
 
-.first-column,
 .first-column h1,
-.first-column p {
-  background-color: rgb(0, 62, 143);
-}
-
-.first-column h1 {
+.mental-health h1 {
   font-size: 50px;
   margin-bottom: 0;
   padding-bottom: 0;
   color: rgb(0, 179, 30);
 }
 
-.first-column p {
+.first-column p,
+.mental-health p {
   font-size: 40px;
   margin-left: 40px;
   font-weight: 500;
@@ -204,13 +220,19 @@ footer {
   }
   .title,
   .first-column h1,
-  .last-part h2 {
+  .last-part h2,
+  .mental-health h1 {
     font-size: 35px;
   }
   .first-column p,
+  .mental-health p,
   .block,
   .title2 {
     font-size: 25px;
+  }
+  .mental-health h1,
+  .mental-health p {
+    padding: 0 20px;
   }
   .body-block ul li {
     font-size: 15px;

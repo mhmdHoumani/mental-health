@@ -174,8 +174,11 @@ footer {
 }
 
 @media (max-width: 850px) {
+  * {
+    padding: 10px 5px 10px 5px;
+  }
   .second-column img {
-    width: 100px;
+    width: 150px;
   }
   .title,
   .first-column h1,

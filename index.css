@@ -29,6 +29,14 @@ header h1 {
   width: 100%;
 }
 
+.last-part-container {
+  display: inline-flex;
+  justify-content: center;
+  padding: 0;
+  margin: auto;
+  width: 100%;
+}
+
 .first-column {
   width: 60%;
   border-radius: 10px 0px 0px 10px;
@@ -178,9 +186,18 @@ footer {
   * {
     padding: 10px 5px 10px 5px;
   }
+  .last-part-container {
+    flex-direction: column;
+  }
   .body-block {
     margin: 5px;
     padding: auto;
+  }
+  .last-part img {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   .second-column img {
     width: 150px;
